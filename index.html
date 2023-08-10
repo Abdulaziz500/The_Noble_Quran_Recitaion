@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تلاوة القرآن الكريم</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!--=========LOADER===========-->
+    <div id="loader">
+        <div class="lds-roller">
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+    </div>  
+    <!--//=========LOADER===========//-->
+
+    <button id="up-btn">اذهب إلى الأعلى</button>
+
+    <div id="header">
+        <h1>تلاوة القرآن الكريم بصوت الشيخ خالد الجليل</h1>
+    </div>
+
+    <div id="search-div">
+        <input type="text" name="" id="search-input">
+        <button id="search-btn">ابحث</button>
+    </div>
+
+    <div id="main-content">
+        <a href="serverPage.html" target="_blank"> <span>1</span>سورة الفاتحة</a>
+        <a href="serverPage.html" target="_blank"><span>2</span>سورة البقرة</a>
+        <a href="serverPage.html" target="_blank"><span>3</span>سورة آل عمران</a>
+        <a href="serverPage.html" target="_blank"><span>4</span>سورة النساء</a>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js"></script>
+<script src="./main.js"></script>
+</html>
